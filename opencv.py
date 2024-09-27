@@ -21,12 +21,10 @@ public class OpenCV extends EasyOpenCV {
 	public enum position {
 		LEFT,
 		CENTER,
-		RIGHT
-  }
+		RIGHT	
+  	}
 
 	public static void init(){
 		camera=hardwareMap.get(OpenCVCamera.class, "camera");
-    
-  }
-  
+  	}
 }
